@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.mvvmpractice.MainViewModelFactory
 import com.example.mvvmpractice.R
 
+//MVVM Architecture
 class MainQuoteActivity : AppCompatActivity() {
     lateinit var mainViewModel: MainViewModel
 
