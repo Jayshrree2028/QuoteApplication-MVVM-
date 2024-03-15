@@ -23,6 +23,8 @@ class MainViewModel(val context:Context): ViewModel() {
     }
 
 
+
+
     fun getQuotes() = quoteList[index]
     fun nextQuotes() = quoteList[--index]
     fun previousQuotes() = quoteList[index++]
