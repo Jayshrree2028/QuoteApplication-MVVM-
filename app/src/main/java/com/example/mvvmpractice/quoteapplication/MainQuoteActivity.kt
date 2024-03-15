@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
-import com.example.mvvmpractice.MainViewModelFactory
 import com.example.mvvmpractice.R
 
 //MVVM Architecture

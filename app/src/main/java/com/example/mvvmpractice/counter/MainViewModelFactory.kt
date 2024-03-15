@@ -1,4 +1,4 @@
-package com.example.mvvmpractice
+package com.example.mvvmpractice.counter
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
