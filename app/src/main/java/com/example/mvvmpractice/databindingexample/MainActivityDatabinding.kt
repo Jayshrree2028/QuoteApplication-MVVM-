@@ -13,6 +13,6 @@ class MainActivityDatabinding : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main_databinding)
         val quoteObj = Quote("Do, or do not. There is no try.","Yoda")
         binding.quote = quoteObj
-
+        
     }
 }
