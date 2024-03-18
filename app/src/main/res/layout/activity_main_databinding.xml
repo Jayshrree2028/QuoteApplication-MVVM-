@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:context=".databindingexample.MainActivityDatabinding">
+        tools:context=".databindingexample.MainActivitydatabind">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

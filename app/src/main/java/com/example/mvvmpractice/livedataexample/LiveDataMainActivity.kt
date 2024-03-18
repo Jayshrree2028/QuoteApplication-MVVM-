@@ -26,10 +26,11 @@ class LiveDataMainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_live_data_main)
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
-        mainViewModel.factLiveData.observe(this, Observer {
-            binding.factsTextView.text = it
-            Log.d("TAG", "onCreate: "+it)
-        })
+//        mainViewModel.factLiveData.observe(this, Observer {
+//            binding.factsTextView.text = it
+//            Log.d("TAG", "onCreate: "+it)
+//        })
+        binding.lifecycleOwner = this
         binding.mainViewModel = mainViewModel
 
 
