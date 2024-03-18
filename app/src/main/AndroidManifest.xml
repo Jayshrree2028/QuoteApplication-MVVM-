@@ -13,13 +13,24 @@
         android:theme="@style/Theme.MVVMPractice"
         tools:targetApi="31">
         <activity
+            android:name=".bindingpractice.PracticeBindingActivity"
+            android:exported="true">
+            <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+        <activity
             android:name=".databindingexample.MainActivityDatabinding"
             android:exported="true">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".livedataexample.LiveDataMainActivity"
